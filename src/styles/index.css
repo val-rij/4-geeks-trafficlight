@@ -1,12 +1,18 @@
 
-/* 
+.trafficLight{
+    height: 800px;
+    width: 400px;
+    background-color: black; 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.light{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
